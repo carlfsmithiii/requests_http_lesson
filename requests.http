@@ -1,0 +1,54 @@
+GET https://www.w3.org/People/Berners-Lee/
+
+###
+
+GET https://swapi.co/api/films/2/
+
+
+###
+
+GET https://swapi.co/api/planets/1/
+
+###
+
+GET https://swapi.co/api/people/?search=r2
+
+###
+
+GET https://swapi.co/api/people/schema
+
+###
+
+GET https://swapi.co/api/planets/1/?format=wookiee
+
+###
+
+GET https://www.pokeapi.co/api/v2/
+
+###
+
+GET https://www.pokeapi.co/api/v2/ability
+
+###
+
+POST https://jsonplaceholder.typicode.com/posts
+Content-Type: application/json
+
+{
+    "foo":"bar",
+    "fooo":"baar",
+    "fooooo":"baaaaaaar"
+}
+
+###
+
+GET https://jsonplaceholder.typicode.com/posts/101
+
+###
+
+GET https://jsonplaceholder.typicode.com/posts/1
+
+###
+
+DELETE https://jsonplaceholder.typicode.com/posts/101
+
